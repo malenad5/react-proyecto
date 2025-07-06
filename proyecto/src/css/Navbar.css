@@ -1,0 +1,11 @@
+.logo {
+width: 200px;
+height: auto;
+border-radius: 8px;
+}
+.logo-icon {
+font-size: 2rem;      
+color: #2f1174;       
+margin-right: 8px;    
+}
+
