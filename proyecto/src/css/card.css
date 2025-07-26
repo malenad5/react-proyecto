@@ -1,0 +1,66 @@
+.grid-products {
+display: grid;
+grid-template-columns: repeat(4, 1fr); 
+gap: 24px;
+padding: 20px;
+justify-items: center;
+}
+
+.tarjeta-producto {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 100%;
+border-radius: 10px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+transition: transform 0.2s ease;
+}
+
+.tarjeta-producto:hover {
+transform: scale(1.03);
+}
+
+
+.img-producto {
+height: 200px;
+width: 100%;
+
+
+}
+
+.card-body {
+flex-grow: 1;
+}
+
+
+.titulo-producto {
+font-size: 1.2rem;
+font-weight: bold;
+color: #212529;
+}
+
+
+.item-precio {
+background-color: #f8f9fa;
+font-size: 1rem;
+font-weight: 500;
+}
+.boton-card{
+display: inline-block;
+background-color: #2f1174;
+color: white;
+padding: 8px 16px;
+border-radius: 18px;
+text-decoration: none;
+font-weight: 500;
+transition: background-color 0.2s ease;
+
+}
+.boton-card:hover {
+background-color: #56569c;
+text-decoration: none;
+}
+.categoria{
+  font-weight: bold;
+  color: #212529;
+}
