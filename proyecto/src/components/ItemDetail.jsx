@@ -10,6 +10,10 @@ const ItemDetail = ({detalle}) => {
     addItem(detalle, cantidad)
   }
   console.log(cart, 'carrito')
+  if (!detalle) {
+    return <p className="text-center">Cargando producto...</p>;
+  }
+
   
   return (
     <div className='div'>
